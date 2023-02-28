@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.bestbuy.servicesinfo.ServicesCURDTestWithSteps" skipped="0" tests="1" time="5.72" timestamp="2023-02-28T13:12:21.091Z[Europe/London]"><testcase classname="com.bestbuy.servicesinfo.ServicesCURDTestWithSteps" name="verify if services is created"/></testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.bestbuy.productinfo.ProductCURDTest" skipped="0" tests="1" time="3.58" timestamp="2023-02-27T23:15:10.008Z[Europe/London]"><testcase classname="com.bestbuy.productinfo.ProductCURDTest" name="Verify if student was created"><error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0&#13;
+Script1.run(Script1.groovy:1)&#13;
+groovy.lang.GroovyShell.evaluate(GroovyShell.java:585)&#13;
+groovy.lang.GroovyShell.evaluate(GroovyShell.java:623)&#13;
+groovy.lang.GroovyShell.evaluate(GroovyShell.java:594)&#13;
+io.restassured.internal.path.json.JSONAssertion.eval(JSONAssertion.groovy:80)&#13;
+io.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:46)&#13;
+io.restassured.internal.path.json.JSONAssertion.getResult(JSONAssertion.groovy:28)&#13;
+io.restassured.path.json.JsonPath.get(JsonPath.java:202)&#13;
+io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.path(RestAssuredResponseOptionsGroovyImpl.groovy:398)&#13;
+io.restassured.internal.RestAssuredResponseOptionsImpl.path(RestAssuredResponseOptionsImpl.java:200)&#13;
+com.bestbuy.productinfo.ProductCURDTest.test002(ProductCURDTest.java:61)&#13;
+</system-err></testcase></testsuite>

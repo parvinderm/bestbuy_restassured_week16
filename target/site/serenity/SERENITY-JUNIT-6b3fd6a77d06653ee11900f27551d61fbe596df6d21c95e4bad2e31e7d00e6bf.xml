@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.bestbuy.categoriesinfo.CategoriesCURDTestWithSteps" skipped="0" tests="1" time="3.02" timestamp="2023-02-28T00:40:04.911Z[Europe/London]"><testcase classname="com.bestbuy.categoriesinfo.CategoriesCURDTestWithSteps" name="verify if store is created"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.bestbuy.categoriesinfo.CategoriesCURDTestWithSteps.test002(CategoriesCURDTestWithSteps.java:41)&#13;
+</system-err></testcase></testsuite>

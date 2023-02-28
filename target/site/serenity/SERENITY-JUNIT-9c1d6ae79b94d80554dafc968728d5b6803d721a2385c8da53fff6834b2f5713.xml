@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="com.bestbuy.productinfo.ProductCURDTestWithSteps" skipped="0" tests="2" time="2.49" timestamp="2023-02-28T19:22:41.664Z[Europe/London]"><testcase classname="com.bestbuy.productinfo.ProductCURDTestWithSteps" name="This will create a new product"><error message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;404&gt;.
+</error><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.productsinfo.ProductsSteps.createProducts(ProductsSteps.java:48)&#13;
+com.bestbuy.productinfo.ProductCURDTestWithSteps.test001(ProductCURDTestWithSteps.java:40)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.productinfo.ProductCURDTestWithSteps" name="verify if product is created"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.productsinfo.ProductsSteps.getProductsInfoByName(ProductsSteps.java:60)&#13;
+com.bestbuy.productinfo.ProductCURDTestWithSteps.test002(ProductCURDTestWithSteps.java:47)&#13;
+</system-err></testcase></testsuite>
